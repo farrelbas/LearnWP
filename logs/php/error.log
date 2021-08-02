@@ -1,0 +1,24 @@
+[31-Jul-2021 06:07:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php on line 137
+[31-Jul-2021 06:07:52 UTC] PHP Stack trace:
+[31-Jul-2021 06:07:52 UTC] PHP   1. {main}() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:0
+[31-Jul-2021 06:07:52 UTC] PHP   2. do_core_upgrade() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:748
+[31-Jul-2021 06:07:52 UTC] PHP   3. Core_Upgrader->upgrade() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:563
+[31-Jul-2021 06:07:52 UTC] PHP   4. Core_Upgrader->check_files() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:95
+[31-Jul-2021 06:07:52 UTC] PHP   5. get_core_checksums() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:388
+[31-Jul-2021 06:07:52 UTC] PHP   6. trigger_error() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php:137
+[31-Jul-2021 06:13:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php on line 137
+[31-Jul-2021 06:13:00 UTC] PHP Stack trace:
+[31-Jul-2021 06:13:00 UTC] PHP   1. {main}() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:0
+[31-Jul-2021 06:13:00 UTC] PHP   2. do_core_upgrade() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:748
+[31-Jul-2021 06:13:00 UTC] PHP   3. Core_Upgrader->upgrade() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:563
+[31-Jul-2021 06:13:00 UTC] PHP   4. Core_Upgrader->check_files() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:95
+[31-Jul-2021 06:13:00 UTC] PHP   5. get_core_checksums() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:388
+[31-Jul-2021 06:13:00 UTC] PHP   6. trigger_error() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php:137
+[31-Jul-2021 06:13:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php on line 137
+[31-Jul-2021 06:13:25 UTC] PHP Stack trace:
+[31-Jul-2021 06:13:25 UTC] PHP   1. {main}() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:0
+[31-Jul-2021 06:13:25 UTC] PHP   2. do_core_upgrade() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:748
+[31-Jul-2021 06:13:25 UTC] PHP   3. Core_Upgrader->upgrade() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\update-core.php:563
+[31-Jul-2021 06:13:25 UTC] PHP   4. Core_Upgrader->check_files() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:95
+[31-Jul-2021 06:13:25 UTC] PHP   5. get_core_checksums() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:388
+[31-Jul-2021 06:13:25 UTC] PHP   6. trigger_error() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php:137
