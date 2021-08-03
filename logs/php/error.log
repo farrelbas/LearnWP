@@ -22,3 +22,28 @@
 [31-Jul-2021 06:13:25 UTC] PHP   4. Core_Upgrader->check_files() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:95
 [31-Jul-2021 06:13:25 UTC] PHP   5. get_core_checksums() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\class-core-upgrader.php:388
 [31-Jul-2021 06:13:25 UTC] PHP   6. trigger_error() C:\Users\ASUS\Local Sites\coba\app\public\wp-admin\includes\update.php:137
+[02-Aug-2021 14:26:14 UTC] PHP Warning:  Error while sending QUERY packet. PID=4912 in C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\wp-db.php on line 2056
+[02-Aug-2021 14:26:14 UTC] PHP Stack trace:
+[02-Aug-2021 14:26:14 UTC] PHP   1. {main}() C:\Users\ASUS\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[02-Aug-2021 14:26:14 UTC] PHP   2. include() C:\Users\ASUS\AppData\Local\Programs\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[02-Aug-2021 14:26:14 UTC] PHP   3. include() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[02-Aug-2021 14:26:14 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[02-Aug-2021 14:26:14 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[02-Aug-2021 14:26:14 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[02-Aug-2021 14:26:14 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160
+[02-Aug-2021 14:26:14 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[02-Aug-2021 14:26:14 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[02-Aug-2021 14:26:14 UTC] PHP  10. call_user_func:{phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[02-Aug-2021 14:26:14 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[02-Aug-2021 14:26:14 UTC] PHP  12. call_user_func:{phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[02-Aug-2021 14:26:14 UTC] PHP  13. Core_Command->check_update() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[02-Aug-2021 14:26:14 UTC] PHP  14. Core_Command->get_updates() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:77
+[02-Aug-2021 14:26:14 UTC] PHP  15. wp_version_check() phar://C:/Users/ASUS/AppData/Local/Programs/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1297
+[02-Aug-2021 14:26:14 UTC] PHP  16. set_site_transient() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\update.php:238
+[02-Aug-2021 14:26:14 UTC] PHP  17. update_site_option() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\option.php:2009
+[02-Aug-2021 14:26:14 UTC] PHP  18. update_network_option() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\option.php:1341
+[02-Aug-2021 14:26:14 UTC] PHP  19. update_option() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\option.php:1771
+[02-Aug-2021 14:26:14 UTC] PHP  20. wpdb->update() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\option.php:487
+[02-Aug-2021 14:26:14 UTC] PHP  21. wpdb->query() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\wp-db.php:2360
+[02-Aug-2021 14:26:14 UTC] PHP  22. wpdb->_do_query() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\wp-db.php:1945
+[02-Aug-2021 14:26:14 UTC] PHP  23. mysqli_query() C:\Users\ASUS\Local Sites\coba\app\public\wp-includes\wp-db.php:2056
